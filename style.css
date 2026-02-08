@@ -18,7 +18,17 @@
     --bg-btn: #999;
 }
 
-.body {
+.light {
+    background-color: var(--bg-light);
+    color: var(--text-light);
+}
+
+.dark {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+}
+
+body {
     transition: 
         backgroudn-color 0.3s ease,
         color 0.3s ease;
@@ -49,6 +59,7 @@ button {
     border: none;
     font-weight: 500;
     transition: all 0.3s linear;
+    outline: none;
     font-family: "Inter", sans-serif;
 }
 
